@@ -1,9 +1,24 @@
 {
-  "results": {
+  "valid": {
     "result": "valid",
     "valid": true,
     "is_role": false,
     "is_disposable": false,
     "is_free": true
+  },
+  "risky": {
+    "result": "risky",
+    "valid": true,
+    "is_role": false,
+    "is_disposable": false,
+    "is_free": false
+  },
+  "undeliverable": {
+    "result": "undeliverable",
+    "valid": false,
+    "reason": "Invalid Recipient",
+    "is_role": false,
+    "is_disposable": false,
+    "is_free": false
   }
 }
